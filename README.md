@@ -2,7 +2,9 @@ This pack includes several components, like the latest version of Luma3ds and it
 
 ## HOW TO INSTALL THE PACK
 
-1. Extract the pack to your 3DS SD card, replace all the existing files and folders, then watch this guide : https://youtu.be/z-hyxGc2gCA
+- Extract the pack to your 3DS SD card, replace all the existing files and folders, then watch this guide : https://youtu.be/z-hyxGc2gCA
+
+
 
 
 

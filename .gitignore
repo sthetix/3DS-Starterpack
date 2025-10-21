@@ -1,0 +1,11 @@
+
+
+archives/
+releases/
+icons/
+*.exe
+
+3DS Starter pack/
+Project/
+
+*.config

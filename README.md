@@ -1,6 +1,6 @@
 # 3DS Starter Pack Downloader (3DS-SPDL)
 
-<div align="center">
+<div style="text-align: center;">
   <img src="images/preview.jpg" alt="3DS-SPDL" />
 </div>
 

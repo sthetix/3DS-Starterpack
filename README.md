@@ -1,7 +1,7 @@
 # 3DS Starter Pack Downloader (3DS-SPDL)
 
-<div style="text-align: center;">
-  <img src="images/preview.png" alt="3DS-SPDL" style="display: block; margin: auto; width: 65%;" />
+<div align="center">
+  <img src="images/preview.png" alt="3DS-SPDL" style="display: block; margin: 0 auto; width: 65%;" />
 </div>
 
 A streamlined GUI tool for downloading essential files needed to finalize your Nintendo 3DS custom firmware setup.

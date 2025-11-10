@@ -116,7 +116,7 @@ class ThreeDSUpdaterGUI:
     def create_main_ui(self):
         """Create the main user interface."""
         # --- Controls Frame ---
-        controls_frame = ttk.LabelFrame(self.root, text="Controls", padding=10)
+        controls_frame = ttk.Labelframe(self.root, text="Controls", padding=10)
         controls_frame.pack(fill=X, padx=10, pady=10)
 
         self.start_btn = ttk.Button(controls_frame, text="Start Download", bootstyle="success", command=self.run_update_in_thread, width=15)
@@ -129,7 +129,7 @@ class ThreeDSUpdaterGUI:
         self.clear_cache_btn.pack(side=LEFT, padx=5)
         
         # --- Output Path Frame ---
-        output_frame = ttk.LabelFrame(self.root, text="Output Destination", padding=10)
+        output_frame = ttk.Labelframe(self.root, text="Output Destination", padding=10)
         output_frame.pack(fill=X, padx=10, pady=(0, 10))
 
         output_path_label = ttk.Label(output_frame, text="Path:", font=('Segoe UI', 9, 'bold'))
@@ -138,7 +138,7 @@ class ThreeDSUpdaterGUI:
         self.output_path_display.pack(side=LEFT, fill=X, expand=True)
 
         # --- Progress Frame ---
-        progress_frame = ttk.LabelFrame(self.root, text="Progress", padding=10)
+        progress_frame = ttk.Labelframe(self.root, text="Progress", padding=10)
         progress_frame.pack(fill=X, padx=10, pady=(0, 10))
 
         self.progress_bar = ttk.Progressbar(progress_frame, mode='determinate', bootstyle="success-striped")
@@ -150,7 +150,7 @@ class ThreeDSUpdaterGUI:
         self.status_label.pack(side=TOP, anchor=W, pady=(5,0))
 
         # --- Log Output Frame ---
-        log_frame = ttk.LabelFrame(self.root, text="Log Output", padding=10)
+        log_frame = ttk.Labelframe(self.root, text="Log Output", padding=10)
         log_frame.pack(fill=BOTH, expand=True, padx=10, pady=(0, 10))
 
         self.log_text = scrolledtext.ScrolledText(log_frame, wrap=WORD, font=("Consolas", 9), state=DISABLED)
